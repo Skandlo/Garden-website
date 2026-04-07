@@ -1,0 +1,14 @@
+body { font-family: sans-serif; background: #f4f7f4; color: #333; margin: 0; padding: 20px; }
+.container { max-width: 600px; margin: auto; text-align: center; }
+.card { background: white; padding: 30px; border-radius: 15px; shadow: 0 4px 6px rgba(0,0,0,0.1); }
+input, select, button { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px; }
+button { background: #2d8a39; color: white; border: none; cursor: pointer; font-weight: bold; }
+button:hover { background: #246d2d; }
+
+/* Chat Styles */
+.chat-box { background: white; height: 300px; overflow-y: scroll; border: 1px solid #ddd; padding: 15px; margin-bottom: 10px; text-align: left; }
+.message { margin-bottom: 15px; padding: 10px; border-radius: 10px; max-width: 80%; }
+.customer { background: #e1f5fe; margin-left: auto; }
+.admin { background: #f1f8e9; }
+table { width: 100%; background: white; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
